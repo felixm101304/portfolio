@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <script src="https://example.com/fontawesome/v5.15.4/js/all.js" data-auto-a11y="true" ></script>
+
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+
+    <body>
+        <nav id="navbar" class="nav">
+            <ul>
+                <li>
+                    <a href="#welcome-section">About</a>
+                </li>
+                <li>
+                    <a href="#projects">Work</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <!--second Section-->
+        <section id="welcome-section">
+            <h1>Hello My Name Is Felix</h1>
+            <p><i>I am a computer science student</i></p>
+        </section>
+
+        <section id="projects" class="project-section">
+            <h2 class="projects-section-header">My Project's</h2>
+
+            <div class="projects-grid">
+                <a href="file:///C:/Users/User/Molina%20Industries/index.html" target="_blank" class="project project-tile">
+                    <img class="project-image"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/GNOME_Calculator_icon_2021.svg/1200px-GNOME_Calculator_icon_2021.svg.png" alt="project" />
+                    <p class="project-title">
+                    calculator
+                    </p>
+                </a>
+            </div>
+        </section>
+<!--third section-->
+<section id="contact" class="contact-section">
+    <div class="contact-section-header">
+        <h2 id="con"> Let's Work Together...</h2>
+        <p>What drives you?</p>
+    </div>
+    <div class="form">
+        <form id="form" action="mailto:felixm101304@gmail.com/email-submit">
+            <input type="email" id="email" placeholder="Your Email Address" name="email" required /><br>
+            <a href="#" target="_blank" id="submit" class="btn contact-submit"><i class="fas fa-arrow-right"></i></a>
+        </form>
+    </div>
+    <div class="contact-links">
+        <a id="profile-link" href="https://www.instagram.com/felixm101304/" target="_blank" class="btn contact-details"><i class="fab fa-instagram"></i></a>
+        <a id="profile-link" href="https://github.com/felixm101304" target="_blank" class="btn contact detail"><i class="fab fa-github"></i></a>
+        <a href="#" target="_blank" class="btn contact-details"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="btn contact-details"><i class="fas fa-mobile-alt"></i></a>
+    </div>
+</selection>
+<!--End Contact section-->
+
+<!--Start Footer Section-->
+<footer>
+    <p id="foot">
+        ©copy; 2022, Made With Struggle by <a id="fot" href="https://www.linkedin.com/in/felix-molina-4a284019b/" target="_blank">Felix Molina</a>
+        </p>
+        </footer>
+<!--End Footer Section-->
+
+    </body>
+
+</html>
